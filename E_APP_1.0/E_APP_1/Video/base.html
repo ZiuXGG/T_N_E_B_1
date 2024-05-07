@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>| Pelixpress |</title>
+  <link rel="stylesheet" href="/E_APP_1/Video/Css3/style.css">
+  <script src="https://kit.fontawesome.com/79e7c86d22.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <button><a href="https://ziuxgg.github.io/T_N_E_B_1/E_APP_1.0" id="btnInicio"><i class="fas fa-house"></i></a></button>
+<div id="videoContainer">
+  <video id="myVideo" autoplay>
+    <source src="/E_APP_1/Videos/El+Gato+con+Botas+[HD].mp4.mp4" type="video/mov">
+  </video>
+
+  <p id="videoControls">
+    <button onclick="playVideo()"><i class="fas fa-play"></i></button>
+    <button onclick="pauseVideo()"><i class="fas fa-pause"></i></button>
+    <button onclick="stopVideo()"><i class="fas fa-stop"></i></button>
+    <button onclick="backward10Seconds()"><i class="fas fa-backward"></i></button>
+    <button onclick="forward10Seconds()"><i class="fas fa-forward"></i></button>
+    <button onclick="fullscreenBtn()"><i class="fas fa-expand"></i></button>
+    <input type="range" id="seekBar" value="0" step="1" onchange="updateSeekBar()">
+  </div>
+</div>
+
+<script src="/E_APP_1/Video/Js2/script.js"></script>
+
+</body>
+</html>
+<style>
+  button {
+    margin-top: 10px;
+  }
+
+  button {
+    margin-left: 10px
+  }
+
+        body::-webkit-scrollbar {
+          width: 12px;
+        }
+    
+        body::-webkit-scrollbar-track {
+          background-color: #141414;
+        }
+    
+        body::-webkit-scrollbar-thumb {
+          background-color: #c2db06;
+          border-radius: 6px;
+        }
+    
+        body::-webkit-scrollbar-thumb:hover {
+          background-color: #c2db06;
+        }
+        
+</style>
